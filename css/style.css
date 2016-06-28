@@ -1,0 +1,136 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+     
+}
+
+#logo{
+    border: 0;
+}
+.page-wrap {
+    height: calc(100% - 136px);
+    
+    max-height: 95vh;
+    margin-bottom: 91px;
+}
+
+
+/* Main menu */
+
+.navbar {
+    background-color: rgb(118, 60, 118);
+    border-bottom: 0;
+    box-shadow: 0 2px 5px #444;
+}
+
+.navbar-header {
+    margin-left: 1%;
+    margin-bottom: 2px;
+}
+
+#mainNavBar {
+    font-size: 1.7rem;
+    float: right;
+    padding: 1em 1.3em;
+    font-weight: 500;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    /*Dodane*/
+    cursor: pointer;
+    transition: color 0.3s;
+    position: relative;
+    margin-right: 0.5em;
+}
+
+.navbar-default .navbar-nav .menu_link_active,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    outline: solid #e3c135 1px;
+    color: #e3c135;
+}
+
+/* Content */
+.container {
+    margin: 0 auto;
+}
+.content-container {
+    margin: 95px auto 100px;
+    max-width: 1050px;
+    height: 80%;
+    max-height: calc(100vh - 170px);
+    background-color: rgba(255, 255, 255, 0.75);
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.content {
+    padding: 25px;
+}
+
+#page-content-wrapper {
+    padding: 15px;
+    min-width: 70%;  
+}
+
+/* Footer */
+
+footer {
+    z-index: 9999;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(118, 60, 118, .93);
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.social-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+}
+
+.social-icon {
+    padding: 7px 8px;
+    height: 42px;
+}
+
+#copy {
+    padding-top: 15px;
+    padding-left: 8%;
+    font-size: 1rem;
+    color: #000;
+    font-weight: 600;
+}
+
+/* Treningi.html */
+
+.adv-description {
+    text-align: left;
+}
+#adv {
+   margin-top: 40px; 
+}
+
+#bgn {
+    text-align: right;
+}
+.img-training {
+     
+    border: 1px solid black;
+}
